@@ -15,7 +15,7 @@ function HomePage () {
                     <Card.Text>
                         Learn more about me, see my work, and contact me.
                     </Card.Text>
-                    <Button className="bg-success">About Me!</Button>
+                    <Button href="#/About" className="bg-success">About Me!</Button>
                     </Card.Body>
                     <Card.Footer className="text-muted"></Card.Footer>
                 </Card>

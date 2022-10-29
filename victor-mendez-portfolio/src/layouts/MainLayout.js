@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 function MainLayout ( {children} ) {
   return (
-    <Container className="min-vw-100">
+    <Container className="min-vw-100 font-monospace">
         <MainNav/>
 
         <Container fluid className="min-vh-100">

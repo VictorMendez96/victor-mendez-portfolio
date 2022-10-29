@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 
 function MainNav () {
     return (
-        <Navbar className="bg-success" expand="xxl">
+        <Navbar className="bg-success" expand="md">
             <Container fluid>
                 <Navbar.Brand href="#/">Victor Mendez</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

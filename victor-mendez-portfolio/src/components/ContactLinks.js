@@ -1,19 +1,15 @@
 import React from 'react';
-import Container from 'react-bootstrap/esm/Container';
 import Image from 'react-bootstrap/esm/Image';
 import GitHub from '../assets/github.svg';
 import LinkedIn from '../assets/linkedin.svg';
+import Col from 'react-bootstrap/Col';
 
 function ContactLinks () {
     return (
-        <Container>
-            <Container>
-                <Image src={GitHub}/>
-            </Container>
-            <Container>
-                <Image src={LinkedIn}/>
-            </Container>
-        </Container>
+        <Col>
+                <Image className="m-1" src={GitHub}/>
+                <Image className="m-1" src={LinkedIn}/>
+        </Col>
     )
 };
 

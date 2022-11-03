@@ -1,17 +1,20 @@
 import React from 'react';
-import Stack from 'react-bootstrap/Stack';
 import Container from 'react-bootstrap/esm/Container';
 import ContactLinks from './ContactLinks';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Footer () {
     return (
-        <footer className="text-center">
-            <Stack direction="horizontal">
-                <Container>
-                    Victor Mendez 2022 | 
-                </Container>
-                <ContactLinks/>
-            </Stack>
+        <footer>
+            <Container fluid className="text-center">
+                <Row>
+                    <Col>
+                        Victor Mendez 2022
+                    </Col>
+                    <ContactLinks/>
+                </Row>
+            </Container>
         </footer>
     )
 }

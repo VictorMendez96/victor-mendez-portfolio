@@ -1,16 +1,15 @@
 import React from 'react';        
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 
 function MainNav () {
     return (
-        <Navbar className="bg-success" expand="md">
+        <Navbar className="bg-success rounded m-1" expand="md">
             <Container fluid>
-                <Navbar.Brand href="#/" className="text-white">Victor Mendez</Navbar.Brand>
+                <Navbar.Brand href="#/" className="text-white m-2">Victor Mendez</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                     <Nav className="align-items-center">

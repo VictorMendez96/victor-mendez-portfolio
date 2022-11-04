@@ -7,18 +7,18 @@ import Dropdown from 'react-bootstrap/Dropdown';
 
 function MainNav () {
     return (
-        <Navbar className="bg-success rounded m-1" expand="md">
+        <Navbar className="bg-dark rounded m-1" expand="xl">
             <Container fluid>
                 <Navbar.Brand href="#/" className="text-white m-2">Victor Mendez</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
-                    <Nav className="align-items-center">
-                        <Navbar.Text><Nav.Link href="#/" className="text-white">Home</Nav.Link></Navbar.Text>
-                        <Navbar.Text><Nav.Link href="#/About" className="text-white">About Me</Nav.Link></Navbar.Text>
-                        <Navbar.Text><Nav.Link href="#/Portfolio" className="text-white">Portfolio</Nav.Link></Navbar.Text>
-                        <Navbar.Text><Nav.Link href="#/Resume" className="text-white">Resume</Nav.Link></Navbar.Text>
+                    <Nav className="align-items-center p-2">
+                        <Navbar.Text><Nav.Link href="#/" className="text-white m-2">Home</Nav.Link></Navbar.Text>
+                        <Navbar.Text><Nav.Link href="#/About" className="text-white m-2">About Me</Nav.Link></Navbar.Text>
+                        <Navbar.Text><Nav.Link href="#/Portfolio" className="text-white m-2">Portfolio</Nav.Link></Navbar.Text>
+                        <Navbar.Text><Nav.Link href="#/Resume" className="text-white m-2">Resume</Nav.Link></Navbar.Text>
                         <Dropdown>
-                            <Dropdown.Toggle variant="success" id="dropdown-basic">
+                            <Dropdown.Toggle variant="dark" id="dropdown-basic">
                                 Contact Me
                             </Dropdown.Toggle>
 

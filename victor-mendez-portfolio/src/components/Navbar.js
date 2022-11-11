@@ -7,7 +7,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 
 function MainNav () {
     return (
-        <Navbar className="bg-dark rounded m-1" expand="xl">
+        <Navbar className="bg-black bg-gradient rounded" expand="xl">
             <Container fluid>
                 <Navbar.Brand href="#/" className="text-white m-2">Victor Mendez</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

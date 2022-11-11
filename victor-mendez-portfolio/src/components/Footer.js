@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 function Footer () {
     return (
         <footer>
-            <Container fluid className="text-center">
+            <Container fluid className="text-center text-white">
                 <Row>
                     <Col>
                         Victor Mendez 2022

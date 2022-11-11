@@ -8,7 +8,7 @@ function ContactForm () {
     return (
         <Container className="p-5">
             <Card>
-                <Card.Header className="bg-dark text-white">Send me a message!</Card.Header>
+                <Card.Header className="bg-black bg-gradient text-white">Send me a message!</Card.Header>
                 <Card.Body>
                     <Form>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

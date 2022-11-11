@@ -10,7 +10,7 @@ function MainNav () {
         <Navbar className="bg-black bg-gradient rounded" expand="xl">
             <Container fluid>
                 <Navbar.Brand href="#/" className="text-white m-2">Victor Mendez</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                     <Nav className="align-items-center p-2">
                         <Navbar.Text><Nav.Link href="#/" className="text-white m-2">Home</Nav.Link></Navbar.Text>

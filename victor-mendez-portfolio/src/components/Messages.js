@@ -8,16 +8,16 @@ function Message () {
 
   return (
     <ToastContainer position={position}>
-      <Toast className='m-2'>
-        <Toast.Header>
+      <Toast className='m-3 p-2 bg-black bg-gradient text-white'>
+        <Toast.Header className='bg-black text-white' closeVariant='white'>
           <img src={ProfilePhoto} className="rounded me-2" alt={ProfilePhoto} width={30} />
           <strong className="me-auto">Victor</strong>
           <small className="text-muted">Just Now</small>
         </Toast.Header>
         <Toast.Body>Welcome! Thanks for visiting my website!</Toast.Body>
       </Toast>
-      <Toast className='m-2'>
-        <Toast.Header>
+      <Toast className='m-3 p-2 bg-black bg-gradient text-white'>
+        <Toast.Header className='bg-black text-white' closeVariant='white'>
             <img src={ProfilePhoto} className="rounded me-2" alt={ProfilePhoto} width={30} />
             <strong className="me-auto">Victor</strong>
             <small className="text-muted">Just Now</small>

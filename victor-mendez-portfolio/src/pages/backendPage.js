@@ -1,4 +1,8 @@
 import React from 'react';
+import Logo from '../logo.svg';
+import ProjectCard from '../components/ProjectCard';
+import MainLayout from '../layouts/MainLayout';
+import Container from 'react-bootstrap/esm/Container';
 
 function BackendPage () {
     const projectInfo = [

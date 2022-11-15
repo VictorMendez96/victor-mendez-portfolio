@@ -3,8 +3,7 @@ import MainLayout from '../layouts/MainLayout';
 import Container from 'react-bootstrap/Container';
 import Logo from '../logo.svg'
 import ProjectCard from '../components/ProjectCard';
-import CardGroup from 'react-bootstrap/CardGroup';
-import '../css/Portfolio.css'
+import '../css/Portfolio.css';
 
 function PortfolioPage () {
     const projectInfo = [
